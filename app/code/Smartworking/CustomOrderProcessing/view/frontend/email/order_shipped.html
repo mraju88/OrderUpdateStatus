@@ -1,0 +1,18 @@
+<!--@subject Your Order #{{var order.increment_id}} Has Been Shipped @-->
+<!--@vars {
+"var customer_name":"Customer Name",
+"var order.increment_id":"Order Number",
+"var store.getFrontendName()":"Store Name"
+} @-->
+
+{{template config_path="design/email/header_template"}}
+
+<p>Dear {{var customer_name}},</p>
+
+<p>Your order #{{var order.increment_id}} has been shipped! We're excited to let you know that your items are on their way.</p>
+
+<p>You can track your order or view details in your account on our website.</p>
+
+<p>Thank you for shopping with {{var store.getFrontendName()}}!</p>
+
+{{template config_path="design/email/footer_template"}}
