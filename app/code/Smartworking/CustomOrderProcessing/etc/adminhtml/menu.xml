@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Smartworking_CustomOrderProcessing Menu
+ *
+ * @category    Smartworking
+ * @package     Smartworking_CustomOrderProcessing
+ * @author      Smartworking Software Private Limited
+ *
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Smartworking_CustomOrderProcessing::manager" title="Status Manager" module="Smartworking_CustomOrderProcessing" sortOrder="10" resource="Smartworking_CustomOrderProcessing::manager"/>
+        <add id="Smartworking_CustomOrderProcessing::add_row" title="Status Manager" module="Smartworking_CustomOrderProcessing" sortOrder="20" parent="Smartworking_CustomOrderProcessing::manager" action="grid/grid" resource="Smartworking_CustomOrderProcessing::add_row"/>
+    </menu>
+</config>

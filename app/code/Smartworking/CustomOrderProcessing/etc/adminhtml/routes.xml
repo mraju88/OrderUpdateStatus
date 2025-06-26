@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Smartworking_CustomOrderProcessing route xml
+ *
+ * @category    Smartworking
+ * @package     Smartworking_CustomOrderProcessing
+ * @author      Smartworking Software Private Limited
+ *
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="grid" frontName="grid">
+            <module name="Smartworking_CustomOrderProcessing" />
+        </route>
+    </router>
+</config>

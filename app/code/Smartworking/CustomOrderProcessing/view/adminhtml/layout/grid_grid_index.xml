@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Smartworking Grid Grid List Layout
+ *
+ * @category    Smartworking
+ * @package     Smartworking_Grib
+ * @author      Smartworking Software Private Limited
+ *
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+                <!-- here we call our ui component of grid-->
+            <uiComponent name="grid_record_grid_list"/>
+        </referenceContainer>
+    </body>
+</page>
