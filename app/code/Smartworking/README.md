@@ -96,3 +96,30 @@ File Structure
     Setup/UpgradeSchema.php: Database schema for log table.
     view/frontend/email/order_shipped.html: Email template for shipment notification.
 
+
+UI admin
+
+	Admin Left Pane Menu -> Status Manager -> Status Manager 
+
+        app/code/Smartworking/CustomOrderProcessing/Api/Data/GridInterface.php
+        app/code/Smartworking/CustomOrderProcessing/Block/Adminhtml/Grid/AddRow.php
+        app/code/Smartworking/CustomOrderProcessing/Block/Adminhtml/Grid/Edit/Form.php
+        app/code/Smartworking/CustomOrderProcessing/Controller/Adminhtml/Grid/AddRow.php
+        app/code/Smartworking/CustomOrderProcessing/Controller/Adminhtml/Grid/MassDelete.php
+        app/code/Smartworking/CustomOrderProcessing/Controller/Adminhtml/Grid/Save.php
+        app/code/Smartworking/CustomOrderProcessing/Controller/Adminhtml/Grid/index.php
+        app/code/Smartworking/CustomOrderProcessing/Helper/Data.php
+        app/code/Smartworking/CustomOrderProcessing/Model/Grid.php
+        app/code/Smartworking/CustomOrderProcessing/Model/ResourceModel/Grid.php
+        app/code/Smartworking/CustomOrderProcessing/Model/ResourceModel/Grid/Collection.php
+        app/code/Smartworking/CustomOrderProcessing/Model/Status.php
+        app/code/Smartworking/CustomOrderProcessing/Test/Unit/Helper/DataTest.php
+        app/code/Smartworking/CustomOrderProcessing/Ui/Component/Listing/Grid/Column/Action.php
+        app/code/Smartworking/CustomOrderProcessing/etc/adminhtml/menu.xml
+        app/code/Smartworking/CustomOrderProcessing/etc/adminhtml/routes.xml
+        app/code/Smartworking/CustomOrderProcessing/etc/db_schema.xml
+        modified:   app/code/Smartworking/CustomOrderProcessing/etc/di.xml
+        app/code/Smartworking/CustomOrderProcessing/view/adminhtml/layout/grid_grid_addrow.xml
+        app/code/Smartworking/CustomOrderProcessing/view/adminhtml/layout/grid_grid_index.xml
+        app/code/Smartworking/CustomOrderProcessing/view/adminhtml/ui_component/grid_record_grid_list.xml
+
